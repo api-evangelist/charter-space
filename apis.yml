@@ -1,7 +1,20 @@
 aid: charter-space
 name: Charter Space
-description: Charter Space is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Charter Space is a London-based space technology company, founded in 2021,
+  building software and financial infrastructure for the New Space economy. Its
+  flagship product, Ubik, is a browser-native, model-based systems engineering
+  and program management platform that unifies requirements management, project
+  management, block diagrams, test procedures, and scheduling in a single
+  collaborative environment, cutting manual systems-engineering admin for
+  spacecraft programs. Ubik is in beta with organizations including teams at
+  NASA's Jet Propulsion Laboratory and exposes native integrations (OneDrive,
+  Google Drive, Jira, GitHub) plus an API for connecting specialized tooling.
+  Charter has also expanded into space insurance, capturing manufacturing and
+  test data at the source to feed an underwriting interface tied to the largest
+  space-insurance carriers, and operates an insurance brokerage for New Space
+  companies insuring satellites and spacecraft. Backed by Techstars and Capital
+  Factory.
 url: https://raw.githubusercontent.com/api-evangelist/charter-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.charter.space/images/charter-logotype.svg
 tags:
 - Company
+- Space
+- Aerospace
+- SpaceTech
+- Systems Engineering
+- Program Management
+- Space Insurance
+- Satellite
+- Mission Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/charter-space-domain-security.yml
+- type: LLMsTxt
+  url: llms/charter-space-llms.txt
 - type: Website
   url: https://charter.space/
+- type: Blog
+  url: https://www.charter.space/news
+- type: Support
+  url: https://www.charter.space/faq
+- type: Login
+  url: https://ubik.charter.space/
+- type: TermsOfService
+  url: https://www.charter.space/terms
+- type: PrivacyPolicy
+  url: https://www.charter.space/privacy
+- type: GitHubOrganization
+  url: https://github.com/charter-space
+- type: LinkedIn
+  url: https://www.linkedin.com/company/charter-space
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

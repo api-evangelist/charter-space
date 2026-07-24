@@ -1,0 +1,33 @@
+# Charter Space
+
+> Charter Space is a London-based space technology company (founded 2021) building software and financial infrastructure for the New Space economy. Its flagship product, Ubik, is a browser-native, model-based systems engineering and program management platform for spacecraft programs. Charter also operates a space-insurance brokerage that captures manufacturing and test data at the source to feed carrier underwriting.
+
+## Products
+
+- [Ubik — Systems Engineering & Program Management](https://www.charter.space/for-engineers): Browser-native, model-based systems engineering platform unifying requirements management, project management, block diagrams, test procedures (built with NASA JPL), and scheduling. Native integrations with OneDrive, Google Drive, Jira, and GitHub, plus an API for connecting specialized tooling. In beta with organizations including teams at NASA JPL.
+- [Space Insurance](https://www.charter.space/insurance): Insurance brokerage and underwriting data platform for New Space companies insuring satellites and spacecraft, tied to the largest space-insurance carriers.
+- [Ubik Application (login)](https://ubik.charter.space/): The Ubik web application. The Ubik API is available to authenticated customers; there is no public developer portal or OpenAPI at this time.
+
+## Company
+
+- [Website](https://charter.space/)
+- [About](https://www.charter.space/about)
+- [FAQ / Support](https://www.charter.space/faq)
+
+## News
+
+- [News & Press](https://www.charter.space/news): Dated company news and press coverage.
+
+## Legal
+
+- [Terms of Service](https://www.charter.space/terms)
+- [Privacy Policy](https://www.charter.space/privacy)
+
+## Elsewhere
+
+- [GitHub](https://github.com/charter-space)
+- [LinkedIn](https://www.linkedin.com/company/charter-space)
+
+## Notes
+
+- No public API documentation, OpenAPI/Swagger, developer portal, MCP server, SDKs, CLI, changelog, or status page were found on the public surface as of 2026-07-18. Ubik exposes an integration API behind customer authentication.
